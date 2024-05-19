@@ -32,7 +32,7 @@ const CalculadoraPartidasRankeadas = (vitorias, derrotas) => {
 
   return (mensagem = `O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`);
 };
-
+gi
 for (let i = 0; i < jogadores.length; i++) {
   console.log(
     CalculadoraPartidasRankeadas(jogadores[i].vitorias, jogadores[i].derrotas)
